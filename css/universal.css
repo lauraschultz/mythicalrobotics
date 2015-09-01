@@ -7,6 +7,8 @@
 		padding:20px;
 		margin:10px;
 		width:100%;
+	}
+	.program {
 		color:white;
 		border-radius:6px;
 		box-shadow: 2px 2px 5px rgba(0,0,0,0.4);
