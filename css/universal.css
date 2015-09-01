@@ -5,6 +5,9 @@
 	.m {
 		box-sizing:border-box;
 		padding:20px;
+	}
+	.program {
+		padding:15px;
 		margin:10px;
 		width:100%;
 	}
