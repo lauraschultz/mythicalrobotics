@@ -8,3 +8,4 @@ baseurl: "http://lauraschultz.github.io/mythicalrobotics" # the subpath of your 
 
 # Build settings
 markdown: kramdown
+port: 2000
