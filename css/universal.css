@@ -10,11 +10,17 @@
 		padding:15px;
 		margin:10px;
 		width:100%;
-	}
-	.program {
 		color:white;
 		border-radius:6px;
 		box-shadow: 2px 2px 5px rgba(0,0,0,0.4);
+	}
+	.left {
+		float:left;
+		display:inline;
+	}
+	.right {
+		float:right;
+		display:inline;
 	}
 	.frc {
 		background:#1e3e71;
