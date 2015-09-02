@@ -1,18 +1,23 @@
 <style>
 	body {
-		font-family:'Raleway';
+		font-family:"Raleway";
+	}
+	h2 {
+		padding:0;
+		margin:0;
 	}
 	.m {
 		box-sizing:border-box;
 		padding:20px;
 	}
 	.program {
-		padding:15px;
+		padding:20px;
 		margin:10px;
 		width:100%;
 		color:white;
 		border-radius:6px;
 		box-shadow: 2px 2px 5px rgba(0,0,0,0.4);
+		overflow:auto;
 	}
 	.left {
 		float:left;
@@ -21,6 +26,7 @@
 	.right {
 		float:right;
 		display:inline;
+		color:#999;
 	}
 	.frc {
 		background:#1e3e71;
