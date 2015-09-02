@@ -14,10 +14,16 @@
 		padding:20px;
 		margin:10px;
 		width:100%;
+		box-sizing:border-box;
 		color:white;
 		border-radius:6px;
 		box-shadow: 2px 2px 5px rgba(0,0,0,0.4);
 		overflow:auto;
+	}
+	.program-mini {
+		padding:12px;
+		width:calc(100% - 60px);
+		margin-left:70px;
 	}
 	.left {
 		float:left;
@@ -26,7 +32,7 @@
 	.right {
 		float:right;
 		display:inline;
-		color:#999;
+		color:rgba (255,255,255,0.6);
 	}
 	.frc {
 		background:#1e3e71;
