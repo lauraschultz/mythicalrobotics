@@ -1,9 +1,8 @@
 # Site settings
 title: Mythical Robotics
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Mythical Robotics is a consortium of FIRST teams from Avalon School and Great River School.
+   It currently encompases one FIRST Robotics team, one FIRST Tech Challenge team, and five FIRST Lego League Teams.
 baseurl: "http://lauraschultz.github.io/mythicalrobotics" # the subpath of your site, e.g. /blog/
 
 # Build settings
