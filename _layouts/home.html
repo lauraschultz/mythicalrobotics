@@ -1,8 +1,82 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link href='https://fonts.googleapis.com/css?family=Raleway:400,800' rel='stylesheet' type='text/css'>
-    {% include head.html %}
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+<meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+
+<link href='https://fonts.googleapis.com/css?family=Raleway:400,800' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" type="text/css" media="screen" href="{{ site.baseurl }}/css/universal.css">
+
+
+
+
+
+<style>
+<style>
+  body {
+    font-family:"Raleway";
+    background:lightgray;
+  }
+  h2, h3, h4 {
+    padding:0;
+    margin:0;
+  }
+  .title {
+    font-weight:800;
+    text-align:center;
+    font-size:40px;
+  }
+  .m {
+    box-sizing:border-box;
+    padding:20px;
+  }
+  .program {
+    margin:10px 20px 10px 20px;
+    padding:20px;
+    width:calc(100% - 40px);
+    box-sizing:border-box;
+    color:white;
+    border-radius:6px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.4);
+    overflow:auto;
+  }
+  .program-mini {
+      padding: 11px;
+      margin: 0px 20px 8px 20px;
+      width: calc(100% - 120px);
+      margin-left: 100px;
+  }
+  .left {
+    float:left;
+    display:inline;
+  }
+  .right {
+    float:right;
+    display:inline;
+    opacity: 0.6;
+  }
+  .frc {
+    background:#1e3e71;
+  }
+  .fll {
+    background:#c52128;
+  }
+  .ftc {
+    background:#e4b320;
+  }
+  </style>
+
+
+
+
+  
   </head>
   <body>
     <h1 class="title">Mythical Robotics</h1>
