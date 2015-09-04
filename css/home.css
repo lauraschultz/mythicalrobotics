@@ -124,7 +124,7 @@ h2 {
 .x {
   padding-top:17px;
 }
-.container {
+#container {
   max-width:900px;
   min-width:500px;
   margin:0 auto;
