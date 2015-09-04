@@ -92,6 +92,7 @@ h2 {
 }
 .post-content {
 	padding-top:4px;
+  text-align:justify;
 }
 #footer {
 	width:100vw;
