@@ -1,7 +1,0 @@
----
-layout: post
-title:  "Test Post"
-date:   2015-09-04
-category: main
----
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sodales libero at lectus finibus, vel auctor eros consequat. Etiam maximus et orci sed maximus. Suspendisse potenti. Suspendisse pulvinar mi mauris. Vivamus cursus erat sit amet odio gravida blandit. Quisque vulputate ligula sed pulvinar elementum. Sed imperdiet tortor mi, id porta tortor tristique eget. Donec et purus id nisl rutrum cursus. Integer a efficitur augue, quis varius nulla. Quisque quis enim sagittis, eleifend eros efficitur, sagittis ex.

@@ -1,14 +1,14 @@
----
-layout: default
----
-<div class="post">
 
-  <header class="post-header">
-    <h1 class="post-title">{{ page.title }}</h1>
-  </header>
-
-  <article class="post-content">
-    {{ content }}
-  </article>
-
-</div>
+<html>
+	<head>
+		{% include head.html %}
+	</head>
+	<body>
+		<a class="btn-back btn btn-default" href="{{ site.baseurl }}" role="button"><i class="fa fa-long-arrow-left"></i>&nbsp;&nbsp;Back home</a>
+		<h1 class="title">{{ page.title }}</h1>
+		<div class="container-container">
+			<div class="container">
+				{{ content }}
+			</div>
+		</div>
+	</doby>
