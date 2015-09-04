@@ -58,11 +58,20 @@ h2 {
 .frc {
   background:#1b374c;
 }
+.frc a:hover {
+  background:#00172c
+}
 .ftc {
   background:#108896;
 }
+.ftc a:hover {
+  background:#006876;
+}
 .fll {
   background:#29c3cb;
+}
+.fll a:hover {
+  background:#09a3ab;
 }
 .post {
 	background:rgba(256,256,256,0.4);
