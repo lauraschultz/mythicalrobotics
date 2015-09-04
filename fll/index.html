@@ -1,0 +1,23 @@
+---
+layout: page
+title: FIRST Lego League
+---
+<div id="container">
+	
+
+</div>
+<div class="posts-container">
+	<div class="row">
+		{% for post in site.categories.fll limit:2 %}
+			<div class="col-lg-6 margin">
+				<div class="p-post">
+					<h3 class="p-post-title">{{ post.title }}</h3>
+					<div class="p-post-content">{{ post.content }}</div>
+				</div>
+			</div>
+		{%  endfor %}
+		
+	</div>
+</div>
+<a class="btn-back btn-back-2 btn btn-default" href="{{ site.baseurl }}/fll" role="button"><i class="fa fa-long-arrow-left"></i>&nbsp;&nbsp;Back to FLL</a>
+	

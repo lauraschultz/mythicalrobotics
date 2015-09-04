@@ -145,6 +145,9 @@ h2 {
   box-shadow:inset 1px 1px black;
   border:none;
 }
+.btn-back-2 {
+  top:65px;
+}
 .btn-back:hover {
   background:#666;
   color:white;
