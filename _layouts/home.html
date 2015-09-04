@@ -1,6 +1,12 @@
+---
+---
 <!DOCTYPE html>
 <html>
   <head>
+    {% include head.html %}
+  </head>
+  <body>
+    <h1 class="title">{{ site.title }}</h1>
     <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -8,71 +14,12 @@
 <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
 <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 
-<link href='https://fonts.googleapis.com/css?family=Raleway:400,800' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Raleway:400,600,800' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 
-<link rel="stylesheet" type="text/css" media="screen" href="{{ site.baseurl }}/css/universal.css">
-
-
-
-
-
-<style>
-<style>
-  body {
-    font-family:"Raleway";
-    background:lightgray;
-  }
-  h2, h3, h4 {
-    padding:0;
-    margin:0;
-  }
-  .title {
-    font-weight:800;
-    text-align:center;
-    font-size:40px;
-  }
-  .m {
-    box-sizing:border-box;
-    padding:20px;
-  }
-  .program {
-    margin:10px 20px 10px 20px;
-    padding:20px;
-    width:calc(100% - 40px);
-    box-sizing:border-box;
-    color:white;
-    border-radius:6px;
-    box-shadow: 2px 2px 5px rgba(0,0,0,0.4);
-    overflow:auto;
-  }
-  .program-mini {
-      padding: 11px;
-      margin: 0px 20px 8px 20px;
-      width: calc(100% - 120px);
-      margin-left: 100px;
-  }
-  .left {
-    float:left;
-    display:inline;
-  }
-  .right {
-    float:right;
-    display:inline;
-    opacity: 0.6;
-  }
-  .frc {
-    background:#1e3e71;
-  }
-  .fll {
-    background:#c52128;
-  }
-  .ftc {
-    background:#e4b320;
-  }
-  </style>
-
+<link rel="stylesheet" type="text/css" media="screen" href="http://localhost:8888/mythicalrobotics/css/home.css">
 
 
 
@@ -82,16 +29,37 @@
     <h1 class="title">Mythical Robotics</h1>
     <div class="row">
       <div class="col-sm-8 m">
-        <div class="program frc"><h2 class="left">2491 No Mythic</h2><h2 class="right">FRC</h2></div>
-        <div class="program ftc"><h2 class="left">9459 Mythic</h2><h2 class="right">FTC</h2></div>
-        <div class="program fll"><h2 class="left">FIRST Lego League</h2></div>
-        <div class="program program-mini fll"><h4 class="left">#### Team Athena</h4><h4 class="right">FLL</h4></div>
-        <div class="program program-mini fll"><h4 class="left">#### Team 1</h4><h4 class="right">FLL</h4></div>
-        <div class="program program-mini fll"><h4 class="left">#### Team 2</h4><h4 class="right">FLL</h4></div>
-        <div class="program program-mini fll"><h4 class="left">#### Versity Team</h4><h4 class="right">FLL</h4></div>
-        <div class="program program-mini fll"><h4 class="left">#### Avalon Team</h4><h4 class="right">FLL</h4></div>
+        <a href=""><div class="program frc"><h2 class="left">2491 No Mythic</h2><h2 class="right">FRC</h2></div></a>
+        <a href="/ftc"><div class="program ftc"><h2 class="left">9459 Mythic</h2><h2 class="right">FTC</h2></div></a>
+        <a href="/fll"><div class="program fll"><h2 class="left">FIRST Lego League</h2></div></a>
+        <a href="/fll/team"><div class="program program-mini fll"><h4 class="left">#### Team Athena</h4><h4 class="right">FLL</h4></div></a>
+        <a href="/fll/team"><div class="program program-mini fll"><h4 class="left">#### Team 1</h4><h4 class="right">FLL</h4></div></a>
+        <a href="/fll/team"><div class="program program-mini fll"><h4 class="left">#### Team 2</h4><h4 class="right">FLL</h4></div></a>
+        <a href="/fll/team"><div class="program program-mini fll"><h4 class="left">#### Varsity Team</h4><h4 class="right">FLL</h4></div></a>
+        <a href="/fll/team"><div class="program program-mini fll"><h4 class="left">#### Avalon Team</h4><h4 class="right">FLL</h4></div></a>
       </div>
       <div class="col-sm-4 m">
+      	<h2>Updates</h2>
+        {{ content }}
       </div>
+    </div>
+    <div id="footer">
+    	<div class="row">
+    		<div class="col-sm-4 c m">
+    			<h3>Who Are We?</h3>
+				<i class="fa fa-question fa-5x fa-border l"></i>
+    			<p>{{ site.description }}</p>
+    			<p>Mythical Robotics is a consortium of FIRST teams from Avalon School and Great River School. It currently encompases one FIRST Robotics team, one FIRST Tech Challenge team, and five FIRST Lego League Teams.</p>
+    		</div>
+    		<div class="col-sm-4 c m">
+    			<h3>Contact Us</h3>
+    			<i class="fa fa-phone fa-5x fa-border l"></i>
+    			<p>Email: 2491nomythic@gmail.com</p>
+    		</div>
+    		<div class="col-sm-4 c m">
+    			<h3>Get Involved</h3>
+    			<i class="fa fa-users fa-4x fa-border l x"></i>
+    			<p>For more information about how to get involved with a Mythical Robotics team, please visit <a href="">our "Get Involved" page</a>.</p>
+    		</div>
     </div>
 </html>
