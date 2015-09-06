@@ -1,7 +1,7 @@
 ---
 layout: home
 ---
-{% for post in site.category.main limit:4 %}
+{% for post in site.categories.main limit:4 %}
   <div class="post">
     <h3 class="post-title">{{ post.title }}</h3>
     <div class="post-content">{{ post.content }}</div>

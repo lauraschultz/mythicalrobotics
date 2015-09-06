@@ -2,7 +2,7 @@
 layout: post
 title:  Sign-up Forms are now live!
 date:   2015-09-04
-category: main ftc fll
+categories: main ftc fll
 ---
 
 <a href="https://docs.google.com/forms/d/1rAsfjq2Pw3uSwWScjBmQEucb7Q7fTzp5O6ei3U5rZlo/viewform" target="_blank">FLL Aplication Form</a>
