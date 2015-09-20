@@ -5,8 +5,8 @@ date:   2015-09-04
 categories: main ftc fll
 ---
 
-<a href="https://docs.google.com/forms/d/1I_AvbAGadgvqbv6hd4IBmPRcqV1INomlQGPrc3Nx4z4/viewform" target="_blank">FTC Application Form</a>
-<p>This team also needs 1-2 parent/adult mentors. Intro meeting on Tuesday, September 8th  at 7 pm. 6-8 student spots if we get 1-2 adult mentors.</p>
+<a href="https://docs.google.com/forms/d/1I_AvbAGadgvqbv6hd4IBmPRcqV1INomlQGPrc3Nx4z4/viewform">FTC Application Form</a>
+<p>Update! There are still a few spots leaft on the FTC team for the  year. Interested? Sign up on the Application Form, and plan to attend the next meeting on September 29th from 4:30-8:30 pm.</p>
 
 <a href="http://eepurl.com/br_Cpv">Mailing List Signup Form</a>
 <p>Each student and each parent should sign up, so you'll get email updates about the team.</p>
