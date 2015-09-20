@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Sign-up Forms are now live!
+title:  FTC SignUp Forms
 date:   2015-09-04
 categories: main ftc fll
 ---
@@ -16,3 +16,6 @@ categories: main ftc fll
 
 <a href="https://docs.google.com/forms/d/1bhOSRLtcbOkEgTjwwkUSXMJKvA_9yUVml_b7Yz7NXQg/viewform">Scholarship Application</a>
 <p>Scholarship money is available to families with a financial need.</p>
+
+<a href="https://my.usfirst.org/stims/Login.aspx">FIRST Student/Parent Login</a>
+<p>Each student must be registered with FIRST before the first competition. First the student creates an account, nominating a parent to complete the process.</p>
