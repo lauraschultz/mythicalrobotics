@@ -2,7 +2,7 @@
 layout: post
 title:  another sample
 date:   2015-09-10
-categories: ftc
+categories: fll-athena
 ---
 
 another ftc post
