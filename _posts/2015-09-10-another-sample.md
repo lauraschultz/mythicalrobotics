@@ -5,4 +5,5 @@ date:   2015-09-10
 categories: fll-athena
 ---
 
-another ftc post
+Next Meeting: September 23, 2015
+Location: Science Lab
