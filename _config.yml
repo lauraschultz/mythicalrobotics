@@ -10,16 +10,13 @@ team1_name: "Team Athena"
 team1_url: team-athena
 
 team2_name: "GRS - FLL"
-team2_url: team-1
+team2_url: grs-fll
 
-team3_name: "Team 982"
-team3_url: team-2
+team3_name: "Avalon FLL"
+team3_url: avalon-fll
 
 team4_name: "The Brickheads"
 team4_url: the-brickheads
-
-team5_name: "Avalon FLL"
-team5_url: avalon-team
 
 # Build settings
 markdown: kramdown
