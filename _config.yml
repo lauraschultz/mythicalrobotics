@@ -15,8 +15,5 @@ team2_url: grs-fll
 team3_name: "Avalon FLL"
 team3_url: avalon-fll
 
-team4_name: "The Brickheads"
-team4_url: the-brickheads
-
 # Build settings
 markdown: kramdown
