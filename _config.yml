@@ -18,8 +18,5 @@ team3_url: avalon-fll
 team4_name: "The Brickheads"
 team4_url: the-brickheads
 
-team5_name: "Last Team"
-team5_url: team5
-
 # Build settings
 markdown: kramdown
