@@ -2,7 +2,7 @@
 layout: post
 title:  New Challenge - Trash Trek
 date:   2015-09-24
-categories: main fll team-athena grs-fll avalon-fll
+categories: main fll fll-athena fll-grs fll-avalon
 ---
 
 <a href="http://www.firstlegoleague.org/challenge/2015trashtrek">2015 Trash Trek</a>
