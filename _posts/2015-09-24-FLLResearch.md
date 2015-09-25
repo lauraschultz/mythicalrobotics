@@ -2,7 +2,7 @@
 layout: post
 title:  Trash Trek Research Workshop
 date:   2015-09-24
-categories: main fll team-athena fll-grs fll-avalon
+categories: main fll team-athena grs-fll avalon-fll
 ---
 
 <a href="http://www.hightechkids.org/fll-research-workshops">Trash Trek Research Workshop</a>
