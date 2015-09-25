@@ -2,7 +2,7 @@
 layout: post
 title:  FTC SignUp Forms
 date:   2015-09-04
-categories: main ftc fll
+categories: main ftc
 ---
 
 <a href="https://docs.google.com/forms/d/1I_AvbAGadgvqbv6hd4IBmPRcqV1INomlQGPrc3Nx4z4/viewform">FTC Application Form</a>
