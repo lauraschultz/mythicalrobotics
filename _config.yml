@@ -4,7 +4,7 @@ description: > # this means to ignore newlines until "baseurl:"
   Mythical Robotics is a consortium of FIRST teams from Avalon School and Great River School.
    It currently encompases one FIRST Robotics team, one FIRST Tech Challenge team, and five FIRST Lego League Teams.
 baseurl: "http://www.mythicalrobotics.com" # the subpath of your site, e.g. /blog/
-shortcut: "{{ site.baseurl }}/media/post_images/"
+shortcut: "http://lauraschultz.github.io/mythicalrobotics/media/post_images/"
 
 # LEGO LEAGUE:
 team1_name: "Team Athena"
