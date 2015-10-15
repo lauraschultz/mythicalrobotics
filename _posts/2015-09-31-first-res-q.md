@@ -9,4 +9,4 @@ categories: ftc
 <p>Learn about the new game, which was just released on September 12, 2015.</p>
 
 
-![]({{ site.shortcut }}ftc-bot.jpg)
+![]({{ site.shortcut }}ftc_bot.jpg)
