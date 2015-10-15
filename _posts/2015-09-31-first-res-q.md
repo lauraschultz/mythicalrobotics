@@ -7,6 +7,3 @@ categories: ftc
 
 <a href="http://www.usfirst.org/roboticsprograms/ftc/game">FIRST Res-Q</a>
 <p>Learn about the new game, which was just released on September 12, 2015.</p>
-
-
-![]({{ site.shortcut }}ftc_bot.jpg)
