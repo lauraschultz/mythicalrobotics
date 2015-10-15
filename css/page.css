@@ -9,6 +9,9 @@
   page-break-inside: avoid;           /* Theoretically FF 20+ */
   break-inside: avoid-column; 
 }
+.p-post-container{
+  margin-bottom:30px;
+}
 .p-post-title {
 	background:#108896;
 	color:white;
@@ -17,11 +20,10 @@
 }
 .p-post-content {
 	padding:15px;
-  background:rgba(256,256,256,0.4);
+  background:rgba(256,256,256,0.8);
 }
 .posts-container {
   max-width:900px;
-  min-width:500px;
   margin:0 auto;
   text-align:left;
 }
