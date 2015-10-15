@@ -9,6 +9,9 @@
   page-break-inside: avoid;           /* Theoretically FF 20+ */
   break-inside: avoid-column; 
 }
+.p-post-img {
+    max-width: 100%;
+}
 .p-post-container{
   margin-bottom:30px;
 }
