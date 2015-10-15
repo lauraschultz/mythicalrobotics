@@ -88,6 +88,9 @@ h2 {
   background: linear-gradient(to right, rgba(255,255,255,.8) 10%,rgba(125,185,232,0) 90%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#007db9e8',GradientType=1 );
 }
+.post img {
+  max-width: 100%;
+}
 .post-title {
 	padding-bottom:4px;
 	border-bottom:2px solid gray;
