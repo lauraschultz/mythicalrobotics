@@ -5,3 +5,5 @@ categories: main ftc
 ---
 
 <p>The FTC team drives!</p>
+
+!()[{{ site.shortcut }}ftp-bot.jpg]
