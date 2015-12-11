@@ -7,6 +7,6 @@ categories: main team-athena
 
 This year's game is about trash. And recycling. So GRS's Team Athena visited the St. Paul Recycling facility. The team saw raw recycling arrive, the sorting process, and some of the items that are made out of those raw material. It was fascinating and instructive, and really helped the team with their FLL presentation for the judges. 
 
-![](http://lauraschultz.github.io/mythicalrobotics/media/post_images/recycling_plant_1.jpg)
-![](http://lauraschultz.github.io/mythicalrobotics/media/post_images/recycling_plant_2.jpg)
-![](http://lauraschultz.github.io/mythicalrobotics/media/post_images/recycling_plant_3.jpg)
+![](http://lauraschultz.github.io/mythicalrobotics/media/post_images/recycling_plant_1.JPG)
+![](http://lauraschultz.github.io/mythicalrobotics/media/post_images/recycling_plant_2.JPG)
+![](http://lauraschultz.github.io/mythicalrobotics/media/post_images/recycling_plant_3.JPG)
