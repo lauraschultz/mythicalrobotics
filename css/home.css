@@ -143,6 +143,9 @@ h2 {
 .container-container {
   margin:30px;
 }
+.inline-block {
+  display:inline-block;
+}
 .btn-back {
   position:absolute;
   top:40px;
@@ -160,8 +163,10 @@ h2 {
   color:white;
 }
 .btn-small {
-  display:inline;
+  display:inline-block;
   position:relative;
   padding:4px;
   font-size:10px;
+  top:-5px;
+  left:5px;
 }
