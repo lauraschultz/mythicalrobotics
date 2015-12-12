@@ -159,4 +159,9 @@ h2 {
   background:#666;
   color:white;
 }
-
+.btn-small {
+  display:inline;
+  position:relative;
+  padding:4px;
+  font-size:10px;
+}
